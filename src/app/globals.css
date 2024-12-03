@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+html {
+  width: 100vw;
+  height: 100vh;
+}
+footer p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+footer a {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 0.95rem;
+}
+
+.icon1 {
+  border-radius: 50%;
+}
+.icon2 {
+  border-radius: 50%;
+}
+.icon3 {
+  border-radius: 50%;
+}
+.icon4 {
+  border-radius: 50%;
+}
+.line-indicator li {
+  width: 70px !important;
+  height: 4px !important;
+  border-radius: 10px;
+  background-color: rgba(142, 142, 142, 0.5);
+}
+.line-indicator li:hover {
+  background-color: rgba(168, 167, 167, 0.4);
+}
+.line-indicator li.slick-active {
+  background-color: black;
+}
+
+.my{
+  min-width: max-content;
+  inset: -40px -20px auto auto;
+  transform: translate3d(-20.6667px, 60.6667px, 0px);
+}
